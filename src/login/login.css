@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+   
+}
+.blackBack {
+    width: 100%;
+    height: 100%;
+   
+    background-color: #000000;
+   
+  }
+  .icon {
+    max-width: 100%;
+    max-height: 100%;
+    left: 24%;
+    top: 10%;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: hidden;
+    background-size: contain;
+  }
+  .blur1 {
+    
+    width: 100%;
+    gap: 2.3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 18% 0px 21% 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+  }
+  .newGroup {
+    width: 42%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    width: 80%;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    text-transform: uppercase;
+  }
+  .group2 {
+    gap: .4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .title1 {
+    width:80%;
+    color: #efefef;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: Montserrat;
+  }
+  .ellipse {
+    height: 29.6px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.19px 10.7px 0.19px 10.3px;
+    background-size: cover;
+    background-image: url("https://file.rendit.io/n/VzTD60DET4J4mUmu5Kei.svg");
+  }
+  .text4 {
+    color: #ffffff;
+    font-size: 26.5px;
+    font-weight: 700;
+    font-family: Montserrat;
+    line-height: 26.47058868408203px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .text-5{
+ 
+  font-size: 2rem;
+  font-family: Bebas Neue;
+  text-align: center;
+  white-space: nowrap;
+
+
+}
+
+  .text5::placeholder{
+    color: gray;
+    font-size: 1.3rem;
+    font-family: Bebas Neue;
+    padding-left: .8rem;
+    
+    white-space: nowrap;
+    letter-spacing: 1.2px;
+
+  }
+  .text5:focus{
+    outline: none;
+  }
+
+  .form1 {
+    width: 36%;
+    height: 26%;
+    max-width: fit-content;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:  1.2rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+  }
+  input{
+    color: black;
+    font-size: 1.3rem;
+    font-family: Bebas Neue;
+    padding-left: .8rem;
+    text-transform: none;
+    letter-spacing: 1.2px;
+  }
+  .whiteFlexColumn {
+     width: 100%;
+     height: 3rem;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    border-style: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  .whiteFlexColumn1 {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 21px 546px 20px 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  .title5 {
+    width: 100%;
+    color: #ffffff;
+    font-size: .8rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    white-space: pre-wrap;
+  }
+  .title3 {
+    display: contents;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat;
+    white-space: pre-wrap;
+  }
+ 
+  .text7 {
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .submit{
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    min-height: 46px;
+    width: 100%;
+   gap: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-style: none;
+   
+   border-radius: 8px;
+   background-color: #f4511e;
+
+  }
+  .submit:hover{
+    cursor: pointer;
+    background-color: #f08456;
+  }
+  
+  
+
+
+
+
+
+
+
