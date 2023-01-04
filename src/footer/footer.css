@@ -1,0 +1,243 @@
+.title40f {
+    flex: 1;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 5%;
+  }
+  .text-parent4f {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  
+  .text21f {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: var(--font-size-8xl);
+  }
+  .reserve1f {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+    display: inline-block;
+    ;
+  }
+  
+  
+  .content4f,
+  .form37f,
+  .reserve-containerf {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  .logo-icon3f {
+    position: relative;
+    width: 54%;
+    height: 11%;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: -10%;
+  }
+  
+  .links4f {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.3rem;
+    color: var(--orange);
+  }
+  
+  .links6f {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.3rem;
+    color: var(--orange);
+  }
+  
+  .column5f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .fb-icon1f{
+    margin-right: 2rem;
+  }
+ 
+  
+  .socials1f {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+  .column5f,
+  .socials1f {
+    flex-direction: column;
+  }
+  .socials1f {
+    gap: 1rem;
+  }
+  .column5f {
+    gap: var(--gap-4xl);
+  }
+  .button8f{
+    border-style: none;
+    height: 3.5rem;
+    width: 85%;
+    font-size: 1.4rem;
+    border-radius: var(--br-xs);
+    background-color: var(--orange);
+    font-weight: 700;
+   
+   
+    color: var(--white-100);
+    
+   
+   
+  }
+
+  .text23f {
+    display: flex;
+    flex-direction: row;
+  }
+  
+ 
+  .container5f{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12%;
+  }
+ 
+  .cta1f {
+    display: flex;
+    align-items: flex-start;
+  }
+  .cta1f {
+    width: 290px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+
+  .all-rights-reserved-2021-woo1f {
+    position: relative;
+    margin-top: 6%;
+    font-size: var(--font-size-5xl);
+    line-height: 140%;
+    color: var(--black-20);
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+  }
+  
+  .image-171-icon2f,
+  .image-172-icon1f {
+    position: absolute;
+    top: 304px;
+    left: 607px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+  }
+  .image-172-icon1f {
+    top: 762px;
+    left: 288px;
+  }
+  .image-168-icon1f {
+    top: 0;
+    left: 965px;
+  }
+  .image-168-icon1f,
+  .image-169-icon1f,
+  .image-170-icon1f,
+  .image-171-icon3f {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+  }
+  
+  .footer1f{
+    position: absolute;
+    top: 14%;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-3xl) var(--padding-4xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-7xl);
+  }
+  .logo-icon4f {
+    position: absolute;
+    top: 53px;
+    left: 231px;
+    width: 216px;
+    height: 30px;
+    object-fit: cover;
+  }
+  
+  .button10f,
+  .menu-innerf {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .button10f {
+    top: 43px;
+    left: 1475px;
+    border-radius: var(--br-xs);
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-lg);
+    align-items: center;
+    justify-content: center;
+    color: var(--white-100);
+  }
+  
+  .menu2f {
+    position: absolute;
+    top: -136px;
+    left: 0;
+    background-color: var(--white-10);
+    backdrop-filter: var(--glass-100);
+    width: 100%;
+    height: 136px;
+    overflow: hidden;
+  }
+  .footerf{
+    position: relative;
+    background-color: var(--white-100);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-8xl);
+    color: var(--black-100);
+    font-family: var(--font-montserrat);
+  }
+  .contactf{
+    margin-top: 23px;
+  }
+  

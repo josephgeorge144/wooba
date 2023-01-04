@@ -15,7 +15,7 @@ function Login() {
             <div className="newGroup">
               <div className="title">Want to have it in your pocket?</div>
               <div className="group2">
-                <div className="title1">
+                <div className="titlelogin">
                   Reserve your gamename now and we’ll notify you as soon as the
                   app is available for downloading
                 </div>

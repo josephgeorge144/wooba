@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tarkanian Basketball Championship",
+        "start": "09:30am",
+        "end": "10:30am",
+        "image": "/assets/play-image-dummy.png"
+    },
+    {
+        "name": "London Basketball Frenzy",
+        "start": "10:00am",
+        "end": "12:00am",
+        "image": "/assets/play-image-dummy.png"
+    },
+    {
+        "name": "Tarkanian Hoops Day",
+        "start": "01:00pm",
+        "end": "02:00am",
+        "image": "/assets/play-image-dummy.png"
+    },
+    {
+        "name": "Cornell Basketball Eve",
+        "start": "07:00pm",
+        "end": "08:00pm",
+        "image": "/assets/play-image-dummy.png"
+    }
+]
