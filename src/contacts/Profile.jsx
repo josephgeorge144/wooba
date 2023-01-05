@@ -6,7 +6,7 @@ import "./contact.css";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import { useState } from "react";
 import { useEffect } from "react";
-
+import 'animate.css';
 
 export function Profile(props) {
   const onArrowLeftIconClick = () => {
@@ -26,7 +26,7 @@ export function Profile(props) {
   return (
     <div >
       {/* class={`${props.swipe.out}`}  */}
-      <div class={`team-member animate__animated ${props.swipe.in}`} onAnimationEnd={() => {props.setSwipeRight()}}>
+      <div class={`team-member animate__animated animate__pulse ${props.swipe.in}`} onAnimationEnd={() => {props.setSwipeRight()}}>
         <div class="content">
           {/* <h3>Evgen Slyuzkin</h3> */}
           <h3>{props.name}</h3>

@@ -43,9 +43,11 @@
   justify-content: flex-start;
   gap: var(--gap-lg);
   z-index: 20;
+  --animate-duration: .35s;
 
   
 }
+
 
 .image {
   top: -20%;
