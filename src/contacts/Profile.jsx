@@ -5,24 +5,28 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./contact.css";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import { useState } from "react";
+import { useEffect } from "react";
 
 
 export function Profile(props) {
   const onArrowLeftIconClick = () => {
     
     props.onArrowLeftIconClick();
+   
   };
 
   const onArrowRightIconClick = () => {
     props.onArrowRightIconClick(); 
 
-    console.log(props.swipe.in);
+   
     
   };
+
+  
   return (
     <div >
       {/* class={`${props.swipe.out}`}  */}
-      <div class={`team-member animate__animated animate__headShake ${props.swipe.in}`} >
+      <div class={`team-member animate__animated ${props.swipe.in}`} onAnimationEnd={() => {props.setSwipeRight()}}>
         <div class="content">
           {/* <h3>Evgen Slyuzkin</h3> */}
           <h3>{props.name}</h3>
@@ -72,6 +76,7 @@ export function Profile(props) {
           alt=""
           src="../arrow-left.svg"
           onClick={onArrowLeftIconClick}
+          
         />
         <img
           className="arrow-right-icon"
@@ -86,8 +91,19 @@ export function Profile(props) {
 
 export function Slider() {
   const [index, setindex] = useState(0);
-  const [swipeRight, setSwipe] = useState({})
+  const [swipeRight, setSwipe] = useState('')
   const [swipeLeft, setSwipeLeft] = useState('')
+  
+  const setSwipeRight=()=>setSwipe('')
+
+  
+  // useEffect(() => {
+    
+  
+  //   return () => {
+  //     setSwipe('');
+  //   }
+  // }, )
 
   const profiledata = [
     {
@@ -124,20 +140,22 @@ export function Slider() {
     },
   ];
 
+ 
+
   const profilearray = profiledata.map((item, index) => {
    
     return (
       <Profile
         onArrowRightIconClick={() =>{
          setindex(() => index >= profiledata.length - 1 ? 0 : index + 1);
-       
-         setSwipe(()=>({out:'animate__fadeOutRight',in:'animate__fadeInLeft' }));
+         swipeRight ? setSwipe(''): setSwipe(()=>({out:'animate__fadeOutRight',in:'animate__fadeInLeft' }));
          
+    }
         
+      }
 
-      }
+
         
-      }
         
         onArrowLeftIconClick={() =>
           setindex(() => (index <= 0 ? profiledata.length - 1 : index - 1))
@@ -149,6 +167,8 @@ export function Slider() {
         balleryears={item.balleryears}
         src={item.src}
         swipe={swipeRight}
+        setSwipeRight={setSwipeRight}
+        
       />
     );
   });
