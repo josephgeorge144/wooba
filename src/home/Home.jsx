@@ -29,7 +29,7 @@ function Home() {
             <Link to="/" className="link">
               Home
             </Link>
-            <Link to="/about" className="link">
+            <Link to="/" className="link">
               About
             </Link>
             <Link to='/footer' className="link">
