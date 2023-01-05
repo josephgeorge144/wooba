@@ -131,7 +131,7 @@ export function Slider() {
       src:'Natalia.png'
     },
     {
-      name: "suvella",
+      name: "Daniel",
       balleryears: "24",
       experience: "49",
       designexperience: "3",
