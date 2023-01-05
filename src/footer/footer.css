@@ -41,8 +41,8 @@
   
   .logo-icon3f {
     position: relative;
-    width: 54%;
-    height: 11%;
+    width: 52%;
+    height: 12%;
     flex-shrink: 0;
     object-fit: cover;
     z-index: 0;
@@ -97,9 +97,9 @@
   }
   .button8f{
     border-style: none;
-    height: 3.5rem;
+    height: 2rem;
     width: 85%;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     border-radius: var(--br-xs);
     background-color: var(--orange);
     font-weight: 700;
