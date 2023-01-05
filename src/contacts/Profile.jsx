@@ -157,8 +157,10 @@ export function Slider() {
 
         
         
-        onArrowLeftIconClick={() =>
+        onArrowLeftIconClick={() =>{
           setindex(() => (index <= 0 ? profiledata.length - 1 : index - 1))
+          swipeLeft ? setSwipeLeft(''): setSwipeLeft(()=>({out:'animate__fadeOutLeft',in:'animate__fadeInRight' }));
+        }
         }
         experience={item.experience}
         designexperience={item.designexperience}

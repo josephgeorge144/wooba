@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
+  const navigate=useNavigate();
   return (
     <div className="footerf" >
       <div className="footer1f">
@@ -51,7 +53,7 @@ const Footer = () => {
               </div>
             </div>
             
-              <button className="button8f">RESERVE GAMENAME</button>
+              <button className="button8f" onClick={()=>navigate('/login')}>RESERVE GAMENAME</button>
            
           </div>
         </div>
@@ -59,19 +61,7 @@ const Footer = () => {
           All rights reserved 2021 © WOOOBA
         </div>
       </div>
-      <div className="menu2f">
-        <img className="logo-icon4f" alt="" src="../logo4@2x.png" />
-        <div className="home-containerf">
-          <div className="reserve1f">Home</div>
-          <div className="reserve1f">About</div>
-          <div className="reserve1f">Team</div>
-          <div className="reserve1f">Contact us</div>
-        </div>
-        <div className="button10f">
-          <div className="reserve1f">Reserve gamename</div>
-        </div>
-        <div className="menu-innerf" />
-      </div>
+      
     </div>
   );
 };
